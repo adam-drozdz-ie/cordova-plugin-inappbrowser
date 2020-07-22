@@ -771,7 +771,7 @@ BOOL isExiting = FALSE;
     // if ([self settingForKey:@"OverrideUserAgent"] != nil) {
     //     self.webView.customUserAgent = [self settingForKey:@"OverrideUserAgent"];
     // }
-    self.webView.customUserAgent = "Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148";
+    self.webView.customUserAgent = @"Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148";
     
     self.webView.clearsContextBeforeDrawing = YES;
     self.webView.clipsToBounds = YES;
